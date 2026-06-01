@@ -11,25 +11,25 @@ body {
 }
 */
 .container3 {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
     background-color:rgb(182, 254, 182);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 1 2 10px rgba(21, 4, 4, 0.15);
-    width: 60%;
+    width: 70%;
 }
 
 .container4 {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
     background-color:rgb(145, 247, 145);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 1px 2px 10px rgba(21, 2, 2, 0.19);
-    width: 60%;
+    box-shadow: 3px 3px 10px rgba(21, 2, 2, 0.19);
+    width: 70%;
 }
 
 
