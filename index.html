@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+        content="le monde kabyle,le monde arabe le peuple amazight et les différentes langues parlées, prénom kabyle et arabe, transcrition de votre prenom en tifinag-kabyle et en arabe.
+              la population et les différentes ethnie, culture kabyle et culture arabe" />
+    <meta name="keywords" content="algérie, kabylie, population amazight,prénom ,prénom féminin, prénom masculin Kabyle , 
+               personnalités kabyle, personnalité arabe" />
+    <meta name="author" lang="fr" content="Malik AMROUNE">
+    <meta name="category" content="culture">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+     <link href="CSS/bootstrap.min.css" rel="stylesheet" type="text/css" />
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</div>
+<!--<link rel="stylesheet" href="Gabari.css">-->
+ <link rel="stylesheet" href="style2.css">
+    
+    <!-- Lien pour les polices d'écriture -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+<title>Prénoms Arabes,kabyle et Significations</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    
+    background: #f4f6f9;
+    color: #333;
+    
+}
+
+header {
+    background: linear-gradient(135deg, #6a11cb, #ee25fc);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+/*span
+{
+  
+        background: linear-gradient(135deg, #6a11cb, #2575fc);
+        color: white;
+        text-align: center;
+        padding: 40px 20px;
+
+
+}
+        */
+h1 {
+    margin: 9;
+}
+.masculin
+    {
+        margin-top: 0;
+        color: blue;
+    }
+
+   .féminin
+    {
+        margin-top: 0;
+        color: rgb(247, 95, 239);
+    }
+    p
+    {
+        font-size: 1.2em;
+        margin-top: 22px;
+        text-align: left;
+        padding-top: 20px;
+    }
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(30, 55, 55) opacity(0.8);
+}
+.container2
+{
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(30, 55, 55) opacity(0.8);   
+}
+
+
+.section {
+    margin-bottom: 40px;
+     max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(30, 57, 57) opacity(0.8);
+}
+
+.section h2.féminin {
+    border-left: 5px solid #2575fc;
+    padding-left: 10px;
+    color: #ff53b4;
+}
+
+.section h2.masculin {
+    border-left: 5px solid #2575fc;
+    padding-left: 10px;
+    color: blue;
+}
+
+
+.card {
+    background: rgb(240, 240, 240);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.name {
+    font-weight: bold;
+    color: #29393f;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+canvas
+{
+    display:none;
+    }
+    
+     .box{
+        text-align: center;
+    }
+</style>
+ 
+
+      <style>
+        /*
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: Arial, sans-serif;
+        }
+
+        */
+        .card:hover {
+          transform: translateY(-10px);
+        }
+
+        h1 {
+          font-size: 1.8rem;
+          margin-bottom: 20px;
+          letter-spacing: 1px;
+        }
+
+        .counter {
+          font-size: 4rem;
+          font-weight: bold;
+          margin: 20px 0;
+          color: #009cdf;
+        }
+
+        .label {
+          font-size: 1.4rem;
+          opacity: 0.8;
+        }
+
+        .pulse {
+          display: inline-block;
+          width: 12px;
+          height: 12px;
+          background: #22c55e;
+          border-radius: 50%;
+          margin-right: 8px;
+          animation: pulse 1.5s infinite;
+        }
+        canvas
+        {
+            text-align: center;
+            margin-right: 100px;
+        }
+        hr
+        {
+            height: 4px;
+            color: #660175;
+            background-color: #ee25fc;
+            border: 1px solid black;
+            width: 80%;
+        }
+
+        @keyframes pulse {
+          0% {
+            transform: scale(1);
+            opacity: 1;
+          }
+          50% {
+            transform: scale(1.5);
+            opacity: 0.5;
+          }
+          100% {
+            transform: scale(1);
+            opacity: 1;
+          }
+        }
+      </style>
+    </head>
+    <body>
+
+<header>
+    <h1>Prénoms Arabes, kabyle et Significations</h1>
+    <p>Découvrez des prénoms inspirants et leurs significations profondes</p>
+    <p>_____________Transcrire un prénom en Tifinagh</p>
+    <p>_______________Transcrire un prénom en Arabe</p>
+
+    <h1>Bienvenue</h1>
+</header>
+<!----------------------------------------COMPTEUR DE VISITE----------------------------->
+ <div class="card">
+    <h1>Visiteurs du site</h1>
+
+    <div class="counter" id="counter">0</div>
+
+    <div class="label">
+      <span class="pulse"></span>
+      compteur en direct
+    </div>
+  </div>
+
+<!------------------------------FIN----------COMPTEUR DE VISITE----------------------------->
+
+<div class="container">
+    <br>
+    
+    <!--***********************Retranscription du prenom français en kabyle******************-->
+    <div class="container3">
+        <h6>🔤 Transcrire un prénom en Tifinagh</h6>
+        <input type="text" id="prenom" placeholder="Entrez votre prénom">
+        <div class="buttons">
+            <script>
+                // script2.js
+
+                // Tableau de correspondance entre alphabet latin et Tifinagh
+                const alphabetTifinagh = {
+                    'a': 'ⴰ', 'b': 'ⴱ', 'c': 'ⵛ', 'd': 'ⴷ', 'e': 'ⴻ', 'f': 'ⴼ', 
+                    'g': 'ⴳ', 'h': 'ⵀ', 'i': 'ⵉ', 'j': 'ⵊ', 'k': 'ⴽ', 'l': 'ⵍ', 
+                    'm': 'ⵎ', 'n': 'ⵏ', 'o': 'ⵓ', 'p': 'ⵃ', 'q': 'ⵇ', 'r': 'ⵔ', 
+                    's': 'ⵙ', 't': 'ⵜ', 'u': 'ⵓ', 'v': 'ⴼ', 'w': 'ⵡ', 'x': 'ⵅ', 
+                    'y': 'ⵢ', 'z': 'ⵣ'
+                };
+
+                // Fonction pour transcrire le prénom
+                function transcrire() {
+                    const prenom = document.getElementById("prenom").value.toLowerCase(); // Récupère le prénom et le met en minuscule
+                    let transcription = "";
+
+                    // Boucle à travers chaque lettre du prénom
+                    for (let i = 0; i < prenom.length; i++) {
+                        let lettre = prenom[i];
+                        if (alphabetTifinagh[lettre]) {
+                            transcription += alphabetTifinagh[lettre]; // Ajoute la lettre Tifinagh correspondante
+                        } else {
+                            transcription += lettre; // Si pas de correspondance, garde la lettre telle quelle
+                        }
+                    }
+
+                    // Affiche le résultat
+                    document.getElementById("resultat").innerText = transcription;
+                }
+
+                // Copier le résultat
+                function copieTexte() {
+                    const texte = document.getElementById("resultat").innerText;
+
+                    if (texte) {
+                        navigator.clipboard.writeText(texte);
+                        alert("Texte copié !");
+                    }
+                }
+
+                // Effacer les champs
+                function efface() {
+                    document.getElementById("prenom").value = "";
+                    document.getElementById("resultat").innerText = "";
+                }
+
+
+                function telechargeImage() {
+                    const texte = document.getElementById("resultat").innerText;
+
+                    if (!texte) {
+                        alert("Rien à télécharger !");
+                        return;
+                    }
+
+                    const canvas2 = document.getElementById("canvas2");
+                    const ctx = canvas2.getContext("2d");
+
+                    // Taille de l'image
+                    canvas2.width = 1000;
+                    canvas2.height =700;
+
+                    // Fond blanc
+                    ctx.fillStyle = "#f7ffff";
+                    ctx.fillRect(0, 0, canvas2.width, canvas2.height);
+
+                    // Style texte arabe
+                    ctx.fillStyle = "#ba0202";
+                    ctx.font = "bold 160px 'Arial', serif";
+                    ctx.textAlign = "center";
+                    ctx.direction = "rtl";
+
+                    // Dessin du texte
+                    ctx.fillText(texte, canvas2.width / 2, canvas2.height / 2);
+
+                    // Télécharger l'image
+                    const lien = document.createElement("a");
+                    lien.download = "prenom_kabyle.png";
+                    lien.href = canvas2.toDataURL("image/png");
+                    lien.click();
+                }
+
+            </script>
+        <button type="button" onclick="transcrire()" oninput="transcrire()">Transcrire</button>
+        <button type="button" onclick="copieTexte()">📋 Copier</button>
+        <button type="button" onclick="efface()">❌ Effacer</button>
+        <h1 id="resultat"></h1>
+        
+    </div>
+    <button type="button" onclick="telechargeImage()">🖼️ Télécharger</button>
+    <br>
+<canvas id="canvas2"></canvas>
+    
+    <br><br>
+     </div>
+ <!--******FIN******FIN  Retranscription du prenom français en kabyle******************-->
+
+     <br>
+    <div class="box"> 
+    <img src="images/arabesque-scintillant.gif" alt="arabesque-scintillant" title="arabesque-scintillant" />
+    </div>
+</br>
+   
+   
+
+      <!--*********************** Transcription prénom en arabe ******************-->
+<div class="container4">
+    <h6>🔤 Transcrire un prénom en arabe</h6>
+    <input type="text" id="prenoms"  placeholder="Entrez votre prénom">
+     <div class="buttons">
+        <script>// script_arabe_ameliore.js
+
+        // Correspondances avancées (sons composés d'abord !)
+        const sonsComposes = {
+            'ch': 'ش',
+            'sh': 'ش',
+            'kh': 'خ',
+            'gh': 'غ',
+            'th': 'ث',
+            'dh': 'ذ',
+            'ph': 'ف',
+            'ou': 'و',
+            'aa': 'ا',
+            'ee': 'ي'
+        };
+
+        // Correspondance lettres simples
+        const alphabetArabe = {
+            'a': 'ا', 'b': 'ب', 'c': 'ك', 'd': 'د', 'e': 'ي', 'f': 'ف',
+            'g': 'ج', 'h': 'ه', 'i': 'ي', 'j': 'ج', 'k': 'ك', 'l': 'ل',
+            'm': 'م', 'n': 'ن', 'o': 'و', 'p': 'ب', 'q': 'ق', 'r': 'ر',
+            's': 'س', 't': 'ت', 'u': 'و', 'v': 'ف', 'w': 'و', 'x': 'كس',
+            'y': 'ي', 'z': 'ز'
+        };
+
+        // Fonction pour transcrire le prénom
+        function transcrires() {
+            let prenoms = document.getElementById("prenoms").value.toLowerCase();
+            let transcription = "";
+
+            let i = 0;
+
+            while (i < prenoms.length) {
+
+                // Vérifie les sons composés (2 lettres)
+                let deuxLettres = prenoms.substring(i, i + 2);
+
+                if (sonsComposes[deuxLettres]) {
+                    transcription += sonsComposes[deuxLettres];
+                    i += 2; // saute 2 lettres
+                } else {
+                    let lettre = prenoms[i];
+
+                    if (alphabetArabe[lettre]) {
+                        transcription += alphabetArabe[lettre];
+                    } else {
+                        transcription += lettre;
+                    }
+
+                    i++;
+                }
+            }
+
+            document.getElementById("resultats").innerText = transcription;
+        }
+
+        // Copier le résultat
+        function copierTexte() {
+            const texte = document.getElementById("resultats").innerText;
+
+            if (texte) {
+                navigator.clipboard.writeText(texte);
+                alert("Texte copié !");
+            }
+        }
+
+        // Effacer les champs
+        function effacer() {
+            document.getElementById("prenoms").value = "";
+            document.getElementById("resultats").innerText = "";
+        }
+
+        function telechargerImage() {
+            const texte = document.getElementById("resultats").innerText;
+
+            if (!texte) {
+                alert("Rien à télécharger !");
+                return;
+            }
+
+            const canvas = document.getElementById("canvas");
+            const ctx = canvas.getContext("2d");
+
+            // Taille de l'image
+            canvas.width = 700;
+            canvas.height = 500;
+
+            // Fond blanc
+            ctx.fillStyle = "#f7ffd1";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // Style texte arabe
+            ctx.fillStyle = "#004f31";
+            ctx.font = "bold 160px 'Amiri', serif";
+            ctx.textAlign = "center";
+            ctx.direction = "rtl";
+
+            // Dessin du texte
+            ctx.fillText(texte, canvas.width / 2, canvas.height / 2);
+
+            // Télécharger l'image
+            const lien = document.createElement("a");
+            lien.download = "prenom_arabe.png";
+            lien.href = canvas.toDataURL("image/png");
+            lien.click();
+        }
+        </script>
+        <button type="button" onclick="transcrires()" oninput="transcrires()" >Transcrire</button>
+        <button type="button" onclick="copierTexte()">📋 Copier</button>
+        <button type="button" onclick="effacer()">❌ Effacer</button>
+        <h1 id="resultats"></h1>
+        
+<button type="button" onclick="telechargerImage()">🖼️ Télécharger</button>
+<canvas id="canvas"></canvas>
+</div>
+ </div>
+</div>
+
+<br><br>
+
+    <p>Nombre de visites :
+      <span id="count">...</span>
+    </p>
+<br>
+
+      <script>
+        fetch('https://api.countapi.xyz/hit/Prenom_Arabe_Kabyle/visites')
+          .then(response => response.json())
+          .then(data => {
+            const counter = document.getElementById('counter');
+
+            let start = 0;
+            let end = data.value;
+            let duration = 1500;
+            let increment = end / (duration / 16);
+
+            function animate() {
+              start += increment;
+
+              if (start >= end) {
+                counter.innerText = end.toLocaleString();
+                return;
+              }
+
+              counter.innerText = Math.floor(start).toLocaleString();
+              requestAnimationFrame(animate);
+            }
+
+            animate();
+          });
+      </script>
+    <script>
+    fetch("https://api.countapi.xyz/hit/Prenom_Arabe_Kabyle/visites")
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById("count").innerText = data.value;
+      });
+    </script>
+
+</br>
+ <hr> 
+
+<div class="container">
+        <div class="section">
+        <h2 class="féminin">Prénoms féminins</h2>
+
+        <div class="card"><span class="name">Adara</span> – Lumière brillante, symbole de clarté et d’espoir.💖</div>
+        <div class="card"><span class="name">Alya</span> – Élevée, sublime, représentant la noblesse.💖</div>
+        <div class="card"><span class="name">Amal</span> – Espoir, une lumière dans l’obscurité.💖</div>
+        <div class="card"><span class="name">Aya</span> – Signe, miracle, beauté unique.💖</div>
+        <div class="card"><span class="name">Basma</span> – Sourire, joie et positivité.💖</div>
+        <div class="card"><span class="name">Dana</span> – Sage, intelligente.💖</div>
+        <div class="card"><span class="name">Dima</span> – Pluie fine, douceur et calme.💖</div>
+        <div class="card"><span class="name">Fatin</span> – Enchanteresse, charme captivant.💖</div>
+        <div class="card"><span class="name">Ghada</span> – Grâce et délicatesse.💖</div>
+        <div class="card"><span class="name">Hala</span> – Aura lumineuse.💖</div>
+        <div class="card"><span class="name">Kenza</span> – Trésor précieux.💖</div>
+        <div class="card"><span class="name">Lana</span> – Douce et tendre.💖</div>
+        <div class="card"><span class="name">Lina</span> – Délicatesse et amour.💖</div>
+        <div class="card"><span class="name">Malak</span> – Ange, pureté céleste.💖</div>
+        <div class="card"><span class="name">Maya</span> – Source de vie.💖</div>
+
+</div>
+    </div>
+    <div class="section">
+        <h2 class="masculin">Prénoms masculins</h2>
+
+        <div class="card"><span class="name">Adam</span> – Premier homme, origine.</div>
+        <div class="card"><span class="name">Amir</span> – Prince, leadership.</div>
+        <div class="card"><span class="name">Ayman</span> – Béni, chanceux.</div>
+        <div class="card"><span class="name">Basil</span> – Courageux.</div>
+        <div class="card"><span class="name">Elias</span> – Prophète, foi.</div>
+        <div class="card"><span class="name">Fadi</span> – Libération.</div>
+        <div class="card"><span class="name">Ghassan</span> – Abondance.</div>
+        <div class="card"><span class="name">Hadi</span> – Guide.</div>
+        <div class="card"><span class="name">Iyad</span> – Force.</div>
+        <div class="card"><span class="name">Jad</span> – Béni.</div>
+        <div class="card"><span class="name">Kaïs</span> – Leader.</div>
+        <div class="card"><span class="name">Lyes</span> – Lion, puissance.</div>
+        <div class="card"><span class="name">Marwan</span> – Pierre précieuse.</div>
+        <div class="card"><span class="name">Malik</span> – Le Roi, Le Souverain.</div>
+        <div class="card"><span class="name">Abdelmalik</span> –Le serviteur duRoi, du Souverain.</div>
+        <div class="card"><span class="name">Nael</span> – Don de Dieu.</div>
+        <div class="card"><span class="name">Noor</span> – Lumière.</div>
+        <div class="card"><span class="name">Rayan</span> – Paradis.</div>
+        <div class="card"><span class="name">Tarek</span> – Étoile du matin.</div>
+
+    </div>
+
+
+<header>
+    <h1>✨ Prénoms & Significations</h1>
+    <input type="text" id="search" placeholder="Rechercher un prénom...">
+<div class="container">
+    <div class="buttons">
+        <button type="button" onclick="filterType('all')">Tous</button>
+        <button type="button" onclick="filterType('f')">Féminins</button>
+        <button type="button" onclick="filterType('m')">Masculins</button>
+        <button type="button" onclick="toggleDark()">🌙 Mode sombre</button>
+    </div>
+    </div>
+</header>
+
+<div class="container" id="list"></div>
+
+<script>
+const data = [
+{n:"Adara", d:"Lumière brillante", t:"f"},
+{n:"Alya", d:"Sublime", t:"f"},
+{n:"Amal", d:"Espoir", t:"f"},
+{n:"Aya", d:"Miracle", t:"f"},
+{n:"Basma", d:"Sourire", t:"f"},
+{n:"Dana", d:"Intelligente", t:"f"},
+{n:"Dima", d:"Pluie fine", t:"f"},
+{n:"Fatin", d:"Enchanteresse", t:"f"},
+{n:"Kenza", d:"Trésor", t:"f"},
+{n:"Lina", d:"Douce", t:"f"},
+{n:"Malak", d:"Ange", t:"f"},
+{n:"Maya", d:"Source", t:"f"},
+
+{n:"Adam", d:"Premier homme", t:"m"},
+{n:"Amir", d:"Prince", t:"m"},
+{n:"Ayman", d:"Béni", t:"m"},
+{n:"Basil", d:"Courageux", t:"m"},
+{n:"Elias", d:"Prophète", t:"m"},
+{n:"Fadi", d:"Libération", t:"m"},
+{n:"Hadi", d:"Guide", t:"m"},
+{n:"Iyad", d:"Force", t:"m"},
+{n:"Noor", d:"Lumière", t:"m"},
+{n:"Rayan", d:"Paradis", t:"m"},
+{n:"Tarek", d:"Étoile", t:"m"}
+];
+
+let currentFilter = "all";
+
+function display() {
+    const search = document.getElementById("search").value.toLowerCase();
+    const container = document.getElementById("list");
+    container.innerHTML = "";
+
+    data.forEach(item => {
+        if ((currentFilter === "all" || item.t === currentFilter) &&
+            item.n.toLowerCase().includes(search)) {
+
+            container.innerHTML += `
+            <div class="card">
+                <div>
+                    <div class="name">${item.n}</div>
+                    <div>${item.d}</div>
+                </div>
+                <div class="copy" onclick="copy('${item.n}')">📋</div>
+            </div>`;
+        }
+    });
+}
+
+function filterType(type) {
+    currentFilter = type;
+    display();
+}
+
+function copy(name) {
+    navigator.clipboard.writeText(name);
+    alert(name + " copié !");
+}
+
+function toggleDark() {
+    document.body.classList.toggle("dark");
+}
+
+document.getElementById("search").addEventListener("input", display);
+
+display();
+</script>
+
+<footer>
+    <p>💖Choisir un prénom est une décision unique et précieuse 💖</p>
+</footer>
+
+</body>
+</html>
